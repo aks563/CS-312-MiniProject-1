@@ -1,0 +1,125 @@
+
+
+/* General Box Styling */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(12, 102, 158);
+  }
+  
+  /* Header Styling */
+  .header {
+    padding: 30px;
+    text-align: center;
+    color: black;
+    background: white;
+  }
+   /* Top Nav Bar Styling */
+  .topnav {
+    overflow: hidden;
+    background-color: #103561;
+  }
+  
+  /* Top Nav Bar Button Styling */
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .topnav a:hover {
+    background-color: rgb(162, 204, 243);
+    color: black;
+  }
+  
+  /* Blog Container Styling */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 #103561;
+  } 
+  
+  /* Flexible Layout */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  input[type="text"], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    box-sizing: border-box;
+  }
+
+  /* Blog Submit Button Styling */
+  input[type="submit"] {
+    width: 100%;
+    background-color: #103561;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(162, 204, 243);
+    color: black
+  }
+
+  /* Blog Content Container Styling */
+  form > div {
+    background-color: rgb(162, 204, 243);
+    padding: 15px;
+  }
+
+  textarea  {  
+   font-family:"Arial";  
+   font-size: 14px;   
+  }
+
+  /* Edit and Delete Button Styling*/
+  .edit-button, .delete-button {
+    width: 100%;
+    background-color: #103561;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: medium;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: rgb(162, 204, 243);
+    color: black;
+}
